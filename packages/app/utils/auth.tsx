@@ -13,7 +13,7 @@ export const handleOAuthSignUp = async (
 ) => {
   try {
     const redirectUrl = AuthSession.makeRedirectUri({
-      path: "/sso-oauth",
+      path: "/sso-oauth-2",
       //this isn't gonna work any since we are not using the *real url that starts with expo://
       //but that's okay, since we are going to handle the redirect ourselves
     });

@@ -12,7 +12,7 @@ export function SignUpScreen() {
   if (!setSession || !isLoaded) return null;
 
   const handleOAuthSignUpWithPress = async (strategy: OAuthStrategy) => {
-    push("/signup/sso-oauth/" + strategy);
+    push("/signup/sso-oauth-3/" + strategy);
   };
 
   const handleEmailSignUpWithPress = async (emailAddress, password) => {

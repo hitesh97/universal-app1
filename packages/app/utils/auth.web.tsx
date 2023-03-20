@@ -20,8 +20,8 @@ export const handleOAuthSignUp = async (
   try {
     await signUp.authenticateWithRedirect({
       strategy,
-      redirectUrl: `${getBaseUrl()}/signup/sso-oauth/${strategy}`,
-      redirectUrlComplete: `${getBaseUrl()}/signup/sso-oauth/${strategy}`,
+      redirectUrl: `${getBaseUrl()}/signup/sso-oauth-3/${strategy}`,
+      redirectUrlComplete: `${getBaseUrl()}/signup/sso-oauth-4/${strategy}`,
     });
 
     //get session
